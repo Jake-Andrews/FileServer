@@ -1,0 +1,10 @@
+com/domain/DataSource.java
+ com.domain.DataSource
+com/domain/FileInformation.java
+ com.domain.FileInformation
+com/domain/FileServerClient.java
+ com.domain.FileServerClient
+com/domain/Controller.java
+ com.domain.Controller
+com/domain/Main.java
+ com.domain.Main

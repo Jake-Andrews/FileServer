@@ -1,0 +1,29 @@
+plugins {
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+
+    id 'java'
+
+    id 'application'
+}
+
+group 'com.domain'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+javafx {
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+    version = '15.0.1'
+}
+
+run {
+    standardInput = System.in
+}
+
+mainClassName = "com.domain.Main";
